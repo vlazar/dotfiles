@@ -27,4 +27,10 @@ function git_current_branch {
 
 export PS1="$Cyan\u@\H $Blue\W $Yellow\$(git_current_branch)$Cyan\$$ColorOff "
 
+alias g="git status"
+alias gco="git checkout"
+alias gci="git commit"
+alias gg="git log --all --grep"
+alias gbc="git branch -a --contains"
+
 [[ -s "/Users/vlad/.rvm/scripts/rvm" ]] && source "/Users/vlad/.rvm/scripts/rvm"
