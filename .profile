@@ -1,4 +1,5 @@
 export PATH=/usr/local/mysql/bin:${PATH}
+export EDITOR="mvim -f"
 
 # Text colors
 Black="\[\033[0;30m\]"
