@@ -28,6 +28,8 @@ function git_current_branch {
 
 export PS1="$Cyan\u@\H $Blue\W $Yellow\$(git_current_branch)$Cyan\$$ColorOff "
 
+alias grep="grep --color=auto"
+
 alias g="git status"
 alias gco="git checkout"
 alias gci="git commit"
