@@ -36,4 +36,6 @@ alias gci="git commit"
 alias gg="git log --all --grep"
 alias gbc="git branch -a --contains"
 
+alias b="bundle exec"
+
 [[ -s "/Users/vlad/.rvm/scripts/rvm" ]] && source "/Users/vlad/.rvm/scripts/rvm"
