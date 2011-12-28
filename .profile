@@ -38,4 +38,7 @@ alias gbc="git branch -a --contains"
 
 alias b="bundle exec"
 
+# A no-overhead version of "rails" command
+alias r="script/rails"
+
 [[ -s "/Users/vlad/.rvm/scripts/rvm" ]] && source "/Users/vlad/.rvm/scripts/rvm"
